@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul>
+        <div class="logo"><img src="image/logo.png" alt=""></div>
+        <div class="navbar">
+            <li><a href="index.php"> Home</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+        </div>
+    </ul>
+</nav>
+
+  <section>
+    <div class="container">
+      <div class="user studentBx">
+        <div class="imgBx"><img src="image/bg.jpg" alt="" /></div>
+        <div class="formBx">
+          <form action="login.php" method="POST">
+            <h2>Admin Login</h2>
+            <input type="email" name="Email" placeholder="User Id">
+            <input type="password" name="Pwd" placeholder="User Password">
+            <input type="submit" class="submit" name="login" value="Sign In">
+            <p class="signin">
+              <a href="#">Forget Password</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
